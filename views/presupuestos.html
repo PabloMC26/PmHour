@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuestos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+ <header>
+    <h1>PmHour</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="presupuestos.html" class="activo">Presupuesto</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Solicite su presupuesto</h2>
+    <form>
+      <label>Nombre:<input type="text" required pattern="[A-Za-zÁÉÍÓÚáéíóú\s]{3,}"></label>
+      <label>Email:<input type="email" required></label>
+      <label>Teléfono:<input type="tel" required></label>
+      <label>Solicite más información:<textarea name="info" placeholder="Opcional"></textarea></label>
+      <div class="checkbox-container">
+        <input type="checkbox" id="privacidad" required>
+        <label for="privacidad">Acepto la Política de Privacidad</label>
+       </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Dirección | Aviso legal</p>
+    <a href="https://www.facebook.com/"><img src="../imagenes/FAcebook.jpg" alt="Facebook"></a>
+    <a href="https://www.instagram.com/"><img src="../imagenes/Instagram.jpg" alt="Instagram"></a>
+  </footer>   
+</body>
+</html>
